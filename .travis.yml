@@ -16,6 +16,9 @@ matrix:
     - node_js: "0.11"
   exclude:
     - node_js: "0.8"
+      env: Foo=bar
+    - node_js: "0.8"
+      env: Bar=foo
   include:
     - node_js: "0.10"
       env: test=aaa
